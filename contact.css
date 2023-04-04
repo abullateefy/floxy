@@ -1,0 +1,46 @@
+
+#contact {
+    display: flex;
+  }
+  
+  #contact .handles, #contact .contact-form {
+    flex: 1;
+  }
+  
+  #contact .contact-form .form-group {
+    margin: 0.75rem;
+  }
+  
+  #contact .contact-form label {
+    display: block;
+  }
+  
+  #contact .contact-form input,
+  #contact .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+  }
+  .bg-primary {
+    background: aqua; 
+    color: #fff;
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .btn {
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn-dark {
+    background: #333;
+    color: #fff;
+  }
+  .m-heading{
+    font-size: 3rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
